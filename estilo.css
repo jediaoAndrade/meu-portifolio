@@ -1,0 +1,170 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+background:#3D1D12;
+    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.nav-bar{
+    opacity: 0.9;
+    margin-top: 2%;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    height: 90px;
+    background: rgb(112, 52, 17);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+     border: 2px solid rgb(224, 98, 13);
+     font-family: Arial, Helvetica, sans-serif;
+    
+}
+.logo{
+    
+  color: rgb(255, 255, 255);
+    flex: 10%;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+.menu{
+    flex: 70%;
+    text-align: center;
+    
+    padding: 30px;
+    font-weight: bold;
+}
+.menu a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px; 
+    margin: 3px;
+    margin-left: 10px;
+    
+}
+.menu a:hover{
+
+    font-size: 23px;
+    transition: all 0.4s;
+    border-bottom: solid 3px  rgb(224, 98, 13);;
+
+    
+}
+header{
+    display: flex; 
+    height: 500px;
+ background:#3D1D12;
+}
+.minha-foto{
+   margin-top: 7%;
+   margin-left: 30%;
+    width: 330px;
+    height: 330px;
+    border-radius:50% ;
+    text-align: end;
+    animation: img 2s linear infinite alternate-reverse;
+    border: 3px solid rgb(134, 56, 4);
+    box-shadow: 0px 11px 15px rgb(0, 0, 0);
+}
+
+@keyframes img{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+.img{
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+header h2{
+    color: white;
+}
+
+.container{
+    flex: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;   
+    
+}
+.boton{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5%;
+}
+
+.container h1{
+    margin-top: 13%;
+    color: whitel;
+    letter-spacing: 3px;
+
+  
+}
+.container p{
+    font-size: 20px; 
+    letter-spacing: 2px;
+}
+
+.btn-git{
+    border-radius: 10px;
+ border: 2px solid rgb(224, 98, 13);
+     padding: 16px;
+     width: 150px;
+     text-align: center;
+     font-weight: bold;
+    letter-spacing: 2px;
+    background:  rgb(14, 13, 13);
+    opacity: 0.7; 
+    margin-right: 2%;
+}
+.btn-email{
+    border-radius: 10px;
+ border: 2px solid rgb(224, 98, 13);
+     padding: 17px;
+     width: 150px;
+     text-align: center;
+     font-weight: bold;
+    letter-spacing: 2px;
+    background:  rgb(14, 13, 13);
+    opacity: 0.7; 
+ 
+}
+.btn-git:hover{
+    cursor: pointer;
+    font-size: 22px;
+    transition: all ease 0.5s;
+    border-radius: 15px;
+    width: 180px; 
+    opacity: 1;
+    background: white;
+    color: black;
+}
+.btn-email:hover{
+    cursor: pointer;
+    font-size: 29px;
+    transition: all ease 0.5s;
+    border-radius: 15px;
+    width: 180px; 
+    opacity: 1;
+     background: white;
+    color: black;
+}
+
+
+
+

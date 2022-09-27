@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\relogio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "meu-portfolio"
+	}
+}
